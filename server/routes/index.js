@@ -22,9 +22,9 @@ router.get('/', async (req, res, next) => {
                     'id': row._rawData[0],
                     'fullname': row._rawData[1],
                     'email': row._rawData[2],
-                    'whatsapp': 'netflix',
-                    'project_title': row._rawData[3],
-                    'project_description': row._rawData[4],
+                    'whatsapp':row._rawData[3],
+                    'project_title': row._rawData[4],
+                    'project_description': row._rawData[5],
                 }
                 customers.push(customer)
             }
