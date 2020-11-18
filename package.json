@@ -1,0 +1,22 @@
+{
+  "name": "customers-api",
+  "version": "1.0.0",
+  "description": "Bimbingan Bareng Customers API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon server/server.js -w server",
+    "start": "node server/server.js"
+  },
+  "author": "Faishal Arif",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "google-spreadsheet": "^3.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
